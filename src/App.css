@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Serif", serif;
+}
+
+.app {
+  background-color: #F2EDDC;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease;
+}
+/*
+.app.warm {
+  /* background-image: url('./assets/warm-bg.jpg'); *//*
+  background-color: tomato;
+}*/
+
+
+main {
+  min-height: 100vh;
+ /* background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.5)
+  );*/
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 55px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: white;
+
+  margin-top: -25px;
+
+
+  color: #313131;
+  font-size: 20px;
+
+  transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box .location {
+  color: black;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.location-box .date {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.location-box .time {
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: white;
+  border-color: #D99379; 
+  border-style: dashed; 
+  
+  padding: 15px 25px;
+
+  color: black;
+  font-size: 102px;
+  font-weight: 900;
+
+  /*text-shadow: 3px 6px rgba(50, 50, 70, 0.5);*/
+  text-align: center;
+}
+
+.border{
+	background-color: white; 
+	padding: 5px 30px; 
+	
+	  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  border-color: #D99379; 
+  border-style: dashed; 
+
+  color: black;
+  font-size: 102px;
+  font-weight: 900;
+
+  /*text-shadow: 3px 6px rgba(50, 50, 70, 0.5);*/
+  text-align: center;
+	
+}
+
+.weather-box .weather {
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.weather-box .weather > span {
+  display: inline-block;
+}
+
+.weather-box .weather > img {
+  display: inline-block;
+  vertical-align: -52%;
+  height: 200px; 
+  width: 200px; 
+}
+
+.weather-box .description {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: -20px;
+}
